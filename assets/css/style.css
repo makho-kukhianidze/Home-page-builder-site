@@ -1,0 +1,179 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    background-color: rgb(190, 185, 185);
+}
+header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    background: white;
+    padding: 1px;
+}
+.logo{
+    width: 120px;
+    height: 80px;
+}
+.img-size{
+    width: 35px;
+    height: 25px;
+}
+.one-row-two-box{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin: 30px;
+    margin-bottom:0px;
+}
+.one-box img{
+    width: 300px;
+    height: 240px;
+}
+.two-box{
+    padding: 12px;
+}
+.two-box{
+    width: 200px;
+}
+.text-p{
+    font-size: 38px;
+    color: #ffe0b0;
+    font-weight: 900;
+    padding-top: 10px;
+    padding-bottom: 16px;
+    text-align: center;
+}
+h1{
+    font-weight: 200;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+}
+h3{
+    font-weight: 200;
+    font-size: 22px;
+    color: white;
+    text-align: center;
+}
+.two-row-three-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+.one-t-box{
+    width: 200px;
+    background: #f3c436;
+    text-align: center;
+    margin: 12px;
+}
+.three-t-box{
+    width: 200px;
+    background: #f3c436;
+    text-align: center;
+    margin: 12px;
+}
+.two-t-box{
+    width: 200px;
+    background: #e3ae0d;
+    text-align: center;
+    margin: 12px
+}
+.one-t-box img{
+    width: 40px;
+    height: 40px;
+    padding: 12px;
+}
+.two-t-box img{
+    width: 40px;
+    height: 40px;
+    padding: 12px;
+}
+.three-t-box img{
+    width: 40px;
+    height: 40px;
+    padding: 12px;
+}
+.one-t-box h2{
+    padding: 13px;
+    color: white;
+    font-size: 25px;
+    font-weight: 900;
+}
+.one-t-box p{
+    padding: 13px;
+    color: white;
+}
+.three-t-box p{
+    padding: 13px;
+    color: white;
+}
+.three-t-box h2{
+    padding: 13px;
+    color: white;
+    font-size: 25px;
+    font-weight: 900;
+}
+.two-t-box h2{
+    padding: 13px;
+    color: white;
+    font-size: 25px;
+    font-weight: 900;
+}
+.two-t-box p{
+    padding: 13px;
+    color: white;
+}
+button{
+    padding: 12px;
+    margin: 12px;
+    background: white;
+    border: none;
+    color: #766e6e;
+}
+footer p{
+    padding:12px;
+    background-color: rgb(124, 124, 121);
+    text-align: center;
+}
+.ce{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    background-color: rgb(43, 41, 42);
+    padding:12px;
+}
+.ce img{
+    width: 23px;
+    height: 24px;
+    padding: 12px;
+    background: #244da9;
+    margin: 1px;
+}
+.ce img:hover{
+    background-color: rgb(45, 34, 194);
+}
